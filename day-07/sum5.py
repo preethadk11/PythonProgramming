@@ -1,0 +1,13 @@
+dict_1={
+    "name":"Preetha",
+    "year":2009
+}
+dict_2={
+    "name":"Priyanga",
+    "year":2010
+}
+total_dict={
+    "dict_1":dict_1,
+    "dict_2":dict_2
+}
+print(total_dict)
