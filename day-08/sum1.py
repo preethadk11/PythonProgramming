@@ -31,7 +31,7 @@ f.close()
 f=open("myfile.txt","r")
 print(f.read())
 f.close()'''
-import os
+'''import os
 print(os.getcwd())
 if os.path.exists("myfile.txt"):
     print("befor delete")
@@ -45,5 +45,17 @@ os.remove("myfile.txt")
 if os.path.exists("myfile.txt"):
     print("After delete")
 else:
-    print("After delete")
+    print("After delete")'''
+with open("python.txt","w") as f:
+    f.write("HELLO EVEryone")
+with open("python.txt","a") as f:
+    f.write("\nI am preetha")
+with open("Python.txt","r") as f:
+    print(f.read())
+import os
+if os.path.exists("python.txt"):
+    print("File exist")
+    os.remove("python.txt")
+else:
+    print("Not exist")
 
