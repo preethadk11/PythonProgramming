@@ -1,0 +1,13 @@
+nested_student_dict={
+    'class':{
+        'student':{
+            'names':'mike',
+            'marks':{
+                'physics':70,
+                'history':80
+            }
+        }
+    }
+}
+nested_student_dict['class']['student']['names']='jessa'
+print(nested_student_dict)
