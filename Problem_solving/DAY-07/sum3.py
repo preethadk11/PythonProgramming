@@ -1,3 +1,5 @@
-for i in range(6):
-    for j in range(1,6+1):
-        print("*",end="")
+n=8
+for i in range(n):
+    for j in range(i):
+        print(" ",end="")
+    print("*"*(2*n-(2*i+1)))
