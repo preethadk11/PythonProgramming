@@ -7,7 +7,7 @@ avg=sum(item["marks"] for item in this_list)
 print(avg/len(this_list))'''
 this_list=[
     {"name":"Preetha","marks":35},
-    {"name":"Priyanga","marks":24}
+    {"name":"Priyanga","marks":35}
 ]
 total=0
 for item in this_list:
