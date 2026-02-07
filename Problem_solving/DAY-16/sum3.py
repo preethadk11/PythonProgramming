@@ -9,7 +9,7 @@ def prime(num):
         else:
             return True
 num=int(input())
-print(prime(num))
+prime(num)
 for i in range(2,(num//2)+1):
     a=i
     b=num-i
