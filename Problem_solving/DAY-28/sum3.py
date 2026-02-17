@@ -8,4 +8,5 @@ for i in range(rows):
     for j in range(cols):
         row.append(a[i][j]+b[i][j])
     result.append(row)
-print(result)
+for row in result:
+    print(*row) #unpacking operator
